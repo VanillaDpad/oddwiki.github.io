@@ -14,4 +14,5 @@ The Big Well design seems to have been decided very earily on as no concept art 
 {% capture description %}
 The opening of The Big Well
 {% endcapture %}
+
 {% include figure.html url="/imgs/bigwell/bigwell_opening.PNG" text=description %}
