@@ -10,3 +10,8 @@ The Big Well appears to be a massive geyser that fires anything that gos in, bac
 this incredible launching speed is what allows Abe (temporary) access to Vykkers labs via the labs open bottom.
 
 The Big Well design seems to have been decided very earily on as no concept art or alter designs are known at the time of writing.
+
+{% capture description %}
+The opening of The Big Well
+{% endcapture %}
+{% include figure.html url="/imgs/bigwell/bigwell_opening.PNG" text=description %}
