@@ -11,6 +11,7 @@ body, html {
   font-family: "Cantarell", "Helvetica", sans-serif;
 
   color: #ffffaa;
+  font-size: 1.05rem;
 }
 
 html {
@@ -40,7 +41,6 @@ body {
   grid-template-columns: auto 60%;
   grid-template-areas:". body";
 
-  width: 1900px;
 
   & > div {
   grid-area: body;
@@ -54,9 +54,6 @@ body {
 }
 
 main {
-  //width: 60%;
-  //margin: 0 auto;
-
   h1,h2,h3 {
     background: #212;
     padding: 0.2rem 1rem 0.5rem 1rem;
@@ -77,6 +74,55 @@ main {
 
     p:last-child {
       margin-bottom: 0;
+    }
+  }
+
+  figure {
+    width: $width;
+    max-width: 100%;
+
+    img {
+      width: 100%;
+    }
+
+    figcaption {
+      width: calc(100% - 1.2rem);
+      margin: 0;
+      margin-top: -4px;
+
+      background: #212;
+      padding: 0.6rem;
+    }
+  }
+
+  #image_gallery {
+    width: $width * 1.25;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);    
+    grid-auto-rows: 1fr;
+    grid-gap: 1rem;
+
+    padding-left: 0;
+    list-style: none;
+
+    figure {
+      margin: 0;
+    }
+  }
+
+  nav {
+    display: table;
+    background: #212;
+
+    h3 {
+      margin: 0;
+      margin-bottom: 0.5rem;
+      background: #101;
+    }
+
+    ul {
+      margin: 0;
+      margin-bottom: 1rem;
     }
   }
 }
