@@ -9,8 +9,8 @@ appearance: "The Big Well appears to be a massive geyser that fires anything tha
 trivia: "The Big Well design seems to have been decided very early on as no concept art or alter designs are known at the time of writing."
   "A popular theory among fans is that Alf is the Mudokon that pushed Abe in to the Big Well and it was later confirmed by Alf in [Dear Alf](https://oddworldlibrary.net/archives/web/oddworld.com/alf/ow_dearalf2_03.shtml)."
 
-Gallery:
-  - Image url: "\imgs\bigwell\bigwell_opening.PNG"
-    Description: "The opening to the Big Well as seen by Abe and his friends in concept art and in-game cutscene."
-  - Image url: "\imgs\bigwell\aboveveiw.PNG"
-    Description: "The Big Well as seen from above in concept art and in-game cutscene."
+gallery:
+  - image-url: "/imgs/bigwell/bigwell_opening.PNG"
+    description: "The opening to the Big Well as seen by Abe and his friends in concept art and in-game cutscene."
+  - image-url: "/imgs/bigwell/aboveveiw.PNG"
+    description: "The Big Well as seen from above in concept art and in-game cutscene."
